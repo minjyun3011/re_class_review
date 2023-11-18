@@ -29,6 +29,7 @@ ieyasu = Customer(first_name="Ieyasu", family_name="Tokugawa", age=75)
 
 print(ken.full_name())  # "Ken Tanaka" という値を出力
 print(tom.full_name())  # "Tom Ford" という値を出力
+print(ieyasu.full_name())
 
 print(ken.age)  # 15 という値を出力
 print(tom.age) # 57 という値を出力
@@ -40,4 +41,4 @@ print(ieyasu.entry_fee())  # 1200 という値を出力
 
 print(ken.info_csv())  # "Ken Tanaka,15,1000" という値を出力
 print(tom.info_csv())  # "Tom Ford,57,1500" という値を出力
-# print(ieyasu.info_csv())  # "Ieyasu Tokugawa,75,1200" という値を出力
+print(ieyasu.info_csv())  # "Ieyasu Tokugawa,75,1200" という値を出力
